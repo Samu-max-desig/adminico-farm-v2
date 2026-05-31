@@ -1,0 +1,33 @@
+.banner {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+
+    padding: 30px 50px;
+
+    margin: 40px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, .05);
+
+}
+
+.benefit {
+
+    text-align: center;
+
+    font-weight: bold;
+
+    color: var(--dark);
+
+    padding: 15px;
+
+}

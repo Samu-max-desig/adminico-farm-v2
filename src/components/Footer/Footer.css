@@ -1,0 +1,45 @@
+.footer {
+
+    background: white;
+
+    margin-top: 80px;
+
+    padding: 50px;
+
+    border-top:
+        1px solid #e2e8f0;
+}
+
+.footer-content {
+
+    text-align: center;
+}
+
+.footer h2 {
+
+    color: var(--primary);
+
+    margin-bottom: 20px;
+}
+
+.footer p {
+
+    color: var(--gray);
+
+    margin-bottom: 10px;
+}
+
+.footer hr {
+
+    margin: 25px 0;
+
+    border: none;
+
+    border-top:
+        1px solid #e2e8f0;
+}
+
+.footer small {
+
+    color: var(--gray);
+}

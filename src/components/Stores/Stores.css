@@ -1,0 +1,71 @@
+.stores {
+
+    padding: 80px 40px;
+}
+
+.stores h2 {
+
+    text-align: center;
+
+    font-size: 35px;
+
+    margin-bottom: 40px;
+}
+
+.stores-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 30px;
+
+    max-width: 1000px;
+
+    margin: auto;
+}
+
+.store-card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, .05);
+
+}
+
+.store-card h3 {
+
+    margin-bottom: 15px;
+
+    color: var(--primary);
+}
+
+.store-card p {
+
+    margin-bottom: 10px;
+
+    color: var(--gray);
+}
+
+.store-card button {
+
+    margin-top: 15px;
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: var(--primary);
+
+    color: white;
+}

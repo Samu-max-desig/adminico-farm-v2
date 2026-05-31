@@ -1,0 +1,110 @@
+:root {
+
+    --primary: #7FBF60;
+    --secondary: #4F8FD8;
+
+    --dark: #1e293b;
+
+    --gray: #64748b;
+
+    --white: #ffffff;
+
+    --background: #f8fafc;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--background);
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.login-banner {
+
+    width: 100%;
+
+    padding: 40px 60px;
+
+    margin-top: 60px;
+}
+
+
+.login-banner-content {
+
+    background: white;
+
+    border-radius: 24px;
+
+    padding: 35px 40px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, .05);
+}
+
+
+.login-banner-content h3 {
+
+    font-size: 28px;
+
+    color: #0f172a;
+
+    margin-bottom: 8px;
+}
+
+
+.login-banner-content p {
+
+    color: #64748b;
+
+    font-size: 16px;
+}
+
+
+.login-banner-content button {
+
+    border: none;
+
+    background: var(--primary);
+
+    color: white;
+
+    padding: 16px 28px;
+
+    border-radius: 14px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+
+.login-banner-content button:hover {
+
+    transform:
+        translateY(-2px);
+
+    opacity: .9;
+}
