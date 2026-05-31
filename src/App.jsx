@@ -3,7 +3,7 @@ import { useState } from "react";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Banner from "./components/Banner/Banner";
-import Categories from "./components/categories/categories";
+import Categories from "./components/Categories/Categories";
 import FeaturedProducts from "./components/FeaturedProducts/FeaturedProducts";
 import Stores from "./components/Stores/Stores";
 import Footer from "./components/Footer/Footer";
